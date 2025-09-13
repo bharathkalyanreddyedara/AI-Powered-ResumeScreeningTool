@@ -146,7 +146,7 @@ st.markdown(
 )
 
 # --- Sidebar ---
-with open("static/hirelens_logo.svg", "r") as f:
+with open("hirelens_logo.svg", "r") as f:
     svg_logo = f.read()
 st.sidebar.markdown(
     f'''
