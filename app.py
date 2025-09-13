@@ -6,7 +6,7 @@ import os
 from parser import ResumeParser
 from matcher import ResumeMatcher
 import matplotlib.pyplot as plt
-import WordCloud
+from wordcloud import WordCloud
 from azure.ai.inference import ChatCompletionsClient
 from azure.ai.inference.models import SystemMessage, UserMessage
 from azure.core.credentials import AzureKeyCredential
