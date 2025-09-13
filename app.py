@@ -286,7 +286,7 @@ job_desc_text_input = st.sidebar.text_area(
 )
 
 # --- Main Area ---
-with open("static/hirelens_logo.svg", "r") as f:
+with open("hirelens_logo.svg", "r") as f:
     svg_logo_main = f.read()
 st.markdown(
     f'''
