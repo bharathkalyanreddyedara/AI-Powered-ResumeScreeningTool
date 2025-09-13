@@ -15,4 +15,5 @@ Pillow==10.4.0
 docx2txt
 pytesseract==0.3.10
 WordCloud
-
+azure-ai-inference
+azure-core
