@@ -3,8 +3,8 @@ import pandas as pd
 import base64
 import tempfile
 import os
-from utils.parser import ResumeParser
-from utils.matcher import ResumeMatcher
+from parser import ResumeParser
+from matcher import ResumeMatcher
 import matplotlib.pyplot as plt
 from wordcloud import WordCloud
 from azure.ai.inference import ChatCompletionsClient
