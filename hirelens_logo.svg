@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="lensGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#7f5cff"/>
+      <stop offset="100%" stop-color="#00dbde"/>
+    </radialGradient>
+  </defs>
+  <!-- Lens Circle -->
+  <circle cx="45" cy="45" r="28" fill="url(#lensGradient)" stroke="#232526" stroke-width="4"/>
+  <!-- Handle -->
+  <rect x="65" y="65" width="20" height="8" rx="4" transform="rotate(45 65 65)" fill="#7f5cff"/>
+  <!-- Person (head) -->
+  <circle cx="45" cy="40" r="6" fill="#fff"/>
+  <!-- Person (body) -->
+  <rect x="41" y="48" width="8" height="14" rx="4" fill="#fff"/>
+  <!-- Briefcase -->
+  <rect x="41" y="62" width="8" height="6" rx="2" fill="#00dbde"/>
+  <rect x="43" y="60" width="4" height="2" rx="1" fill="#232526"/>
+</svg> 
